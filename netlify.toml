@@ -7,3 +7,7 @@
   from = "/api/*"
   to = "https://taxjar-api-docs.netlify.app/:splat"
   status = 200
+
+[build.environment]
+  BUNDLE_DISABLE_VERSION_CHECK = "true"
+  BUNDLE_CACHE_ALL = "false"

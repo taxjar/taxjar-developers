@@ -4,10 +4,16 @@ Developer portal for TaxJar, powered by Middleman. Our v2 API docs are hosted on
 
 ## Getting Started
 
-Clone the repo and simply run the following command:
+Clone the repo.
 
+If this is your first time developing on this repo, use your Ruby environment manager to install the proper Ruby version specified in `.ruby-version` and then the right bundler version with
 ```
-bundle install && bower install
+gem install bundler -v 1.17.3
+```
+
+Next run the following command (if you're only using one version of bundler you can omit the version):
+```
+bundle _1.17.3_ install && bower install
 ```
 
 This should install the Ruby and Bower dependencies you need to get up and going.
@@ -20,7 +26,9 @@ To develop and preview the documentation locally, use the following Middleman co
 middleman server
 ```
 
-This will watch for changes and compile them on the fly.
+This will watch for changes, compile them on the fly.
+
+Served at `http://localhost:4567`.
 
 ## Blogging
 

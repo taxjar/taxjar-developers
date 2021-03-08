@@ -8,5 +8,10 @@
     "name": "Bernd Ustorf",
     "avatar": "/images/authors/bernd_ustorf.jpeg",
     "twitter": "burntkraut"
+  },
+  "pat_wentz": {
+    "name": "Pat Wentz",
+    "avatar": "/images/authors/pat_wentz.jpeg",
+    "twitter": null
   }
 }

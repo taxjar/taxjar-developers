@@ -1,7 +1,7 @@
 //= require classnames
 //= require esprima
-//= require lodash
-//= require clipboard
+//= require lodash/lodash
+//= require clipboard/dist/clipboard
 //= require ./demo/data
 //= require_tree ./demo/vendor
 //= require_tree ./demo/components

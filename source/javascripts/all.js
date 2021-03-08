@@ -1,7 +1,7 @@
 //= require jquery-smooth-scroll/jquery.smooth-scroll
-//= require fastclick
+//= require fastclick/lib/fastclick.js
 //= require particles.js/particles.js
-//= require scrollspy
+//= require scrollspy/build/scrollspy.js
 //= require_tree ./components
 
 (function($) {
